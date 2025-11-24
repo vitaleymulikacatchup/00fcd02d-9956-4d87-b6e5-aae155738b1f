@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -9,7 +9,7 @@ import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import TestimonialCardFour from '@/components/sections/testimonial/TestimonialCardFour';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Spa, Dumbbell, Wine, Concierge, Star, Crown, Sparkles } from "lucide-react";
+import { ConciergeBell, Dumbbell, Wine, Star, Crown, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -70,7 +70,7 @@ export default function LandingPage() {
           title="World-Class Amenities and Services"
           features={[
             {
-              icon: Spa,
+              icon: ConciergeBell,
               title: "Luxury Spa Wellness",
               description: "Rejuvenate with our full-service spa offering treatments, massages, and wellness therapies in a serene environment."
             },
@@ -85,7 +85,7 @@ export default function LandingPage() {
               description: "Indulge in culinary excellence with our award-winning restaurants and bars offering international cuisine."
             },
             {
-              icon: Concierge,
+              icon: ConciergeBell,
               title: "Concierge Services",
               description: "Our dedicated concierge team arranges reservations, tours, and experiences tailored to your needs."
             }
